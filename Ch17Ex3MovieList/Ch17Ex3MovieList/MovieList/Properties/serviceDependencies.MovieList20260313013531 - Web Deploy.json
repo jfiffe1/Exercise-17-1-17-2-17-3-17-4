@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/MovieList20260313013531/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsMovieContext1_4556CA311F",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/movies-jans-dbdbserver/databases/movies-jans-db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:MovieContext1",
+      "dynamicId": null
+    }
+  }
+}
